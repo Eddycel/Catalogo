@@ -1,0 +1,50 @@
+[
+  {
+    "categoria": "telefonos",
+    "nombre": "Samsung Galaxy S24",
+    "precio": "$799",
+    "descripcion": "Pantalla AMOLED, cámara triple, rendimiento profesional.",
+    "imagen": "img/telefonos/s24.jpeg",
+    "destacado": true
+  },
+  {
+    "categoria": "telefonos",
+    "nombre": "iPhone 16",
+    "precio": "$899",
+    "descripcion": "Chip A18, Face ID, ecosistema Apple de última generación.",
+    "imagen": "img/telefonos/16_pro_max.jpeg",
+    "destacado": true
+  },
+  {
+    "categoria": "accesorios",
+    "nombre": "Cover iPhone 16",
+    "precio": "$20",
+    "descripcion": "Funda resistente con MagSafe, elegante y funcional.",
+    "imagen": "img/accesorios/cover_i16.jpeg",
+    "destacado": true
+  },
+  {
+    "categoria": "accesorios",
+    "nombre": "Cargador inalámbrico",
+    "precio": "$25",
+    "descripcion": "Carga rápida universal con base antideslizante.",
+    "imagen": "img/accesorios/cargador_inalambrico.jpeg",
+    "destacado": false
+  },
+  {
+    "categoria": "electrodomesticos",
+    "nombre": "Ventilador recargable",
+    "precio": "$32",
+    "descripcion": "Compacto, silencioso, ideal para el escritorio.",
+    "imagen": "img/electrodomesticos/Ventilador_recargable.png",
+    "destacado": true
+  },
+  {
+    "categoria": "electrodomesticos",
+    "nombre": "Lámpara recargable",
+    "precio": "$18",
+    "descripcion": "Portátil y elegante con tres niveles de luz.",
+    "imagen": "img/electrodomesticos/lampara_recargable.jpeg",
+    "destacado": false
+  }
+]
