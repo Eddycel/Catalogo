@@ -16,8 +16,30 @@
         <li><a href="accesorios.html">Accesorios</a></li>
         <li><a href="electrodomesticos.html">Electrodomésticos</a></li>
       </ul>
+    <input type="text" id="buscador" placeholder="Buscar productos..." />
     </nav>
   </header>
+
+</header>
+
+<section id="filtros">
+  <select id="filtro-marca">
+    <option value="">Todas las marcas</option>
+    <option value="iPhone">iPhone</option>
+    <option value="Samsung">Samsung</option>
+    <option value="Xiaomi">Xiaomi</option>
+    <option value="anker">anker</option>
+    <!-- Agrega más marcas según necesidad -->
+  </select>
+
+  <select id="filtro-tipo">
+    <option value="">Todos los tipos</option>
+    <option value="funda">Fundas</option>
+    <option value="protector">Protectores</option>
+    <option value="cargador">Cargadores</option>
+    <!-- Agrega más tipos según necesidad -->
+  </select>
+</section>
 
   <main>
     <div id="productos" class="grid-productos"></div>

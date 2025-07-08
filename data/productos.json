@@ -1,30 +1,42 @@
 [
   {
     "categoria": "telefonos",
+    "tipo":"",
+    "marca":"",
+    "modelo":"",
     "nombre": "Samsung Galaxy S24",
     "precio": "$799",
     "descripcion": "Pantalla AMOLED, cámara triple, rendimiento profesional.",
     "imagen": "img/telefonos/s24.jpeg",
-    "destacado": true
+    "destacado": false
   },
   {
     "categoria": "telefonos",
+    "tipo":"",
+    "marca":"",
+    "modelo":"",
     "nombre": "iPhone 16",
     "precio": "$899",
     "descripcion": "Chip A18, Face ID, ecosistema Apple de última generación.",
     "imagen": "img/telefonos/16_pro_max.jpeg",
-    "destacado": true
+    "destacado": false
   },
   {
     "categoria": "accesorios",
-    "nombre": "Cover iPhone 16",
+    "tipo": "funda",
+    "marca": "iPhone",
+    "modelo": "iPhone 16",
+    "nombre": "Cover transparente iPhone 16",
     "precio": "$20",
     "descripcion": "Funda resistente con MagSafe, elegante y funcional.",
     "imagen": "img/accesorios/cover_i16.jpeg",
-    "destacado": true
+    "destacado": false
   },
   {
     "categoria": "accesorios",
+    "tipo":"cargador",
+    "marca":"anker",
+    "modelo":"",
     "nombre": "Cargador inalámbrico",
     "precio": "$25",
     "descripcion": "Carga rápida universal con base antideslizante.",
@@ -33,6 +45,9 @@
   },
   {
     "categoria": "electrodomesticos",
+    "tipo":"",
+    "marca":"",
+    "modelo":"",
     "nombre": "Ventilador recargable",
     "precio": "$32",
     "descripcion": "Compacto, silencioso, ideal para el escritorio.",
@@ -41,10 +56,80 @@
   },
   {
     "categoria": "electrodomesticos",
+    "tipo":"",
+    "marca":"",
+    "modelo":"",
     "nombre": "Lámpara recargable",
     "precio": "$18",
     "descripcion": "Portátil y elegante con tres niveles de luz.",
     "imagen": "img/electrodomesticos/lampara_recargable.jpeg",
+    "destacado": true
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "funda",
+    "marca": "Samsung",
+    "modelo": "Galaxy A34",
+    "nombre": "Funda Transparente Galaxy A34",
+    "precio": "$9",
+    "descripcion": "Silicona flexible, resistente a golpes, diseño ultra delgado.",
+    "imagen": "img/accesorios/funda-galaxy-a34.jpg",
+    "destacado": true
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "protector",
+    "marca": "Samsung",
+    "modelo": "Galaxy A34",
+    "nombre": "Protector de Pantalla Galaxy A34",
+    "precio": "$5",
+    "descripcion": "Vidrio templado 9H, cobertura total, antihuellas.",
+    "imagen": "img/accesorios/protector-galaxy-a34.jpg",
     "destacado": false
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "funda",
+    "marca": "iPhone",
+    "modelo": "iPhone 16",
+    "nombre": "Funda Antigolpes iPhone 16",
+    "precio": "$11",
+    "descripcion": "Esquinas reforzadas, agarre ergonómico, compatible con MagSafe.",
+    "imagen": "img/accesorios/funda-iphone16.jpg",
+    "destacado": true
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "protector",
+    "marca": "iPhone",
+    "modelo": "iPhone 16",
+    "nombre": "Protector 3D iPhone 16",
+    "precio": "$7",
+    "descripcion": "Cristal curvo, anti-rayones y repelente de manchas.",
+    "imagen": "img/accesorios/protector-iphone16.jpg",
+    "destacado": false
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "funda",
+    "marca": "Xiaomi",
+    "modelo": "Redmi Note 12",
+    "nombre": "Funda Lisa Redmi Note 12",
+    "precio": "$8",
+    "descripcion": "Textura suave, colores sólidos, protección ligera.",
+    "imagen": "img/accesorios/funda-redmi-note12.jpg",
+    "destacado": false
+  },
+  {
+    "categoria": "accesorios",
+    "tipo": "protector",
+    "marca": "Xiaomi",
+    "modelo": "Redmi Note 12",
+    "nombre": "Protector FullCover Redmi Note 12",
+    "precio": "$5",
+    "descripcion": "Cobertura completa, alta sensibilidad táctil.",
+    "imagen": "img/accesorios/protector-redmi-note12.jpg",
+    "destacado": true
   }
+
 ]
