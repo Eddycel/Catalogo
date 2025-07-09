@@ -205,7 +205,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 1.2rem 2rem;
+  padding: 0.8rem 1rem;
   background: linear-gradient(90deg, #25D366, #128C7E);
   color: white;
   transition: all 0.3s ease;
@@ -233,14 +233,6 @@ footer {
   filter: blur(0.2px);
 }
 
-
-.titulo-banner {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
-  transition: opacity 0.3s ease, height 0.3s ease, font-size 0.3s ease;
-  color: black;
-}
 
 .banner.shrink .titulo-banner {
   opacity: 0;
