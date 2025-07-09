@@ -1,13 +1,7 @@
-fetch("data/productos.json")
-  .then(res => res.json())
-  .then(data => {
-    let productosFiltrados = [];
-
-    if (typeof categoria === "string" && categoria === "destacados") {
-      productosFiltrados = data.filter(p => p.destacado === true).slice(0, 4);
-    } else if (typeof categoria === "string") {
-      productosFiltrados = data.filter(p => p.categoria === categoria);
-    }
-
-    renderProductos(productosFiltrados);
-  });
+.logo {
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform;
+}

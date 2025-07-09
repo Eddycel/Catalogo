@@ -196,3 +196,59 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.2rem 2rem;
+  background: linear-gradient(90deg, #25D366, #128C7E);
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner.shrink {
+  padding: 0.4rem 0.5rem;
+  gap: 0;
+  flex-direction: column;
+}
+
+.logo {
+  height: 60px;
+  transition: transform 0.4s ease, height 0.3s ease;
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.banner.shrink .logo {
+  transform: scale(0.7);
+  filter: blur(0.2px);
+}
+
+
+.titulo-banner {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  transition: opacity 0.3s ease, height 0.3s ease, font-size 0.3s ease;
+}
+
+.banner.shrink .titulo-banner {
+  opacity: 0;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.banner .logo {
+  filter: blur(0);
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
