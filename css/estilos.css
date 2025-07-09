@@ -239,6 +239,7 @@ footer {
   font-weight: bold;
   margin: 0;
   transition: opacity 0.3s ease, height 0.3s ease, font-size 0.3s ease;
+  color: black;
 }
 
 .banner.shrink .titulo-banner {
