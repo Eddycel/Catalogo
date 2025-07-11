@@ -1,11 +1,65 @@
-.banner {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem 1rem;
-  background: linear-gradient(90deg, #25D366, #128C7E);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+/* ======= HEADER DE NAVEGACIÓN ======= */
+
+
+/* ======= TARJETAS DE PRODUCTOS ======= */
+.product-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product-price {
+  color: #E53935;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* ======= BOTONES ======= */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #E53935;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #D32F2F;
+}
+
+.btn-secondary {
+  background-color: #1E88E5;
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  background-color: #1565C0;
 }

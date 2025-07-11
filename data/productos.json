@@ -85,7 +85,7 @@
     "precio": "$5",
     "descripcion": "Vidrio templado 9H, cobertura total, antihuellas.",
     "imagen": "img/accesorios/protector-galaxy-a34.jpg",
-    "destacado": false
+    "destacado": true
   },
   {
     "categoria": "accesorios",
@@ -118,7 +118,7 @@
     "precio": "$8",
     "descripcion": "Textura suave, colores sólidos, protección ligera.",
     "imagen": "img/accesorios/funda-redmi-note12.jpg",
-    "destacado": false
+    "destacado": true
   },
   {
     "categoria": "accesorios",

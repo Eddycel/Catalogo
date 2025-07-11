@@ -1,52 +1,53 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Variables generales
   const telefono = "5353427960";
-  // Esta línea NO debe estar aquí si ya defines `categoria` en el HTML.
-  // const categoria = "accesorios";
+  let productosData = [];
 
-let productosData = [];
+  fetch("data/productos.json")
+    .then(res => res.json())
+    .then(data => {
+      let productosFiltrados = [];
 
-fetch("data/productos.json")
-  .then(res => res.json())
-  .then(data => {
-    let productosFiltrados = [];
+      if (typeof categoria === "string" && categoria === "destacados") {
+        productosFiltrados = data.filter(p => p.destacado === true);
+      } else if (typeof categoria === "string") {
+        productosFiltrados = data.filter(p => p.categoria === categoria);
+      }
 
-    if (typeof categoria === "string" && categoria === "destacados") {
-      productosFiltrados = data.filter(p => p.destacado === true).slice(0, 4);
-    } else if (typeof categoria === "string") {
-      productosFiltrados = data.filter(p => p.categoria === categoria);
-    }
+      productosData = productosFiltrados;
 
-    productosData = productosFiltrados;
+      console.log("Categoría activa:", categoria);
+      console.log("Productos encontrados:", productosData.map(p => p.nombre));
 
-    console.log("Categoría activa:", categoria);
-    console.log("Productos encontrados:", productosData.map(p => p.nombre));
+      renderProductos(productosData);
+    });
 
-    renderProductos(productosData);
-  });
-
-  // Aquí comienza la función que pinta los productos en el HTML
   function renderProductos(productos) {
     const contenedor = document.getElementById("productos");
     contenedor.innerHTML = "";
 
     productos.forEach(prod => {
       const mensaje = encodeURIComponent(`Hola, estoy interesado en el producto: ${prod.nombre}`);
-      contenedor.innerHTML += `
-        <section class="producto">
-          <img src="${prod.imagen}" alt="${prod.nombre}" />
-          <h2 class="nombre-producto">${prod.nombre}</h2>
-          <p class="precio">${prod.precio}</p>
-          <p class="descripcion">${prod.descripcion}</p>
-          <a class="whatsapp" href="https://wa.me/${telefono}?text=${mensaje}" target="_blank">
+
+      const tarjeta = document.createElement("div");
+      tarjeta.classList.add("producto");
+
+      tarjeta.innerHTML = `
+        <img src="${prod.imagen}" alt="${prod.nombre}" class="product-image" />
+        <h3 class="product-title">${prod.nombre}</h3>
+        <p class="product-price">$${prod.precio}</p>
+        <p class="product-description">${prod.descripcion || ""}</p>
+        <div class="product-buttons">
+          <a class="btn btn-primary" href="https://wa.me/${telefono}?text=${mensaje}" target="_blank">
             Contactar por WhatsApp
           </a>
-        </section>
+        </div>
       `;
+
+      contenedor.appendChild(tarjeta);
     });
   }
 
-  // 📦 Conectamos los filtros dinámicos si existen en el HTML
+  // 🎯 Filtros dinámicos
   const filtroMarca = document.getElementById("filtro-marca");
   const filtroTipo = document.getElementById("filtro-tipo");
 
