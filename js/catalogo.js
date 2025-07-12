@@ -19,6 +19,22 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log("Productos encontrados:", productosData.map(p => p.nombre));
 
       renderProductos(productosData);
+
+      const buscador = document.getElementById("buscador");
+
+      if (buscador) {
+      buscador.addEventListener("input", () => {
+      const texto = buscador.value.toLowerCase();
+
+      const resultado = productosData.filter(p =>
+      p.nombre.toLowerCase().includes(texto) ||
+      p.descripcion.toLowerCase().includes(texto)
+      );
+
+    renderProductos(resultado);
+  });
+}
+
     });
 
   function renderProductos(productos) {
