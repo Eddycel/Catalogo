@@ -31,17 +31,18 @@ document.addEventListener("DOMContentLoaded", () => {
       const tarjeta = document.createElement("div");
       tarjeta.classList.add("producto");
 
-      tarjeta.innerHTML = `
-        <img src="${prod.imagen}" alt="${prod.nombre}" class="product-image" />
-        <h3 class="product-title">${prod.nombre}</h3>
-        <p class="product-price">$${prod.precio}</p>
-        <p class="product-description">${prod.descripcion || ""}</p>
-        <div class="product-buttons">
-          <a class="btn btn-primary" href="https://wa.me/${telefono}?text=${mensaje}" target="_blank">
-            Contactar por WhatsApp
-          </a>
-        </div>
-      `;
+    const descripcionConSaltos = prod.descripcion.replace(/\n/g, "<br>");
+
+    tarjeta.innerHTML = `
+    <img src="${prod.imagen}" alt="${prod.nombre}" class="product-image" />
+    <h3 class="product-title">${prod.nombre}</h3>
+    <p class="product-price">$${prod.precio}</p>
+    <p class="descripcion">${descripcionConSaltos}</p>
+    <a class="whatsapp" href="https://wa.me/${telefono}?text=${mensaje}" target="_blank">
+    Contactar por WhatsApp
+    </a>
+    `;
+
 
       contenedor.appendChild(tarjeta);
     });

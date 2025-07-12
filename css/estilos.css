@@ -44,7 +44,7 @@ main {
 
 /* Estilos base */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #F9F9F9;
   color: #212121;
   margin: 0;
@@ -133,7 +133,7 @@ body {
 .producto img {
   width: 100%;
   height: 180px;
-  object-fit: cover; /* o "contain" si querés que no se recorte */
+  object-fit: contain; /* o "contain" si querés que no se recorte */
   border-radius: 4px;
 }
 
@@ -149,6 +149,7 @@ body {
 }
 
 .descripcion {
+  white-space: normal;
   font-size: 0.95rem;
   color: #555;
   flex-grow: 1;
@@ -163,7 +164,6 @@ body {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
   transition: background-color 0.3s;
 }
 
