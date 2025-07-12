@@ -1,11 +1,15 @@
 const buscador = document.getElementById("buscador");
-if (buscador) {
-  buscador.addEventListener("input", () => {
-    const texto = buscador.value.toLowerCase();
-    document.querySelectorAll(".producto").forEach((prod) => {
-      const nombre = prod.querySelector(".nombre-producto").textContent.toLowerCase();
-      const coincide = nombre.includes(texto);
-      prod.style.display = coincide ? "flex" : "none";
-    });
+
+buscador.addEventListener("input", function () {
+  const texto = buscador.value.toLowerCase(); // lo que escribe el usuario
+  const tarjetas = document.querySelectorAll(".card");
+
+  tarjetas.forEach(card => {
+    const nombre = card.dataset.nombre.toLowerCase();
+    if (nombre.includes(texto)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
   });
-}
+});
