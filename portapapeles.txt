@@ -1,65 +1,37 @@
+filtro marcas
+  <select id="filtro-marca">
+    <option value="">Todas las marcas</option>
+    <option value="iPhone">iPhone</option>
+    <option value="Samsung">Samsung</option>
+    <option value="Xiaomi">Xiaomi</option>
+    <option value="anker">anker</option>
+    <!-- Agrega más marcas según necesidad -->
+  </select>
 
-/* ======= HEADER DE NAVEGACIÓN ======= */
+  
 
 
-/* ======= TARJETAS DE PRODUCTOS ======= */
-.product-card {
-  background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-}
+  filtro con marca y tipo en js
+    // 🎯 Filtros dinámicos
+  const filtroMarca = document.getElementById("filtro-marca");
+  const filtroTipo = document.getElementById("filtro-tipo");
 
-.product-card:hover {
-  transform: translateY(-4px);
-}
+  if (filtroMarca && filtroTipo) {
+    filtroMarca.addEventListener("change", aplicarFiltros);
+    filtroTipo.addEventListener("change", aplicarFiltros);
+  }
 
-.product-image {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
+  function aplicarFiltros() {
+    const marca = filtroMarca.value;
+    const tipo = filtroTipo.value;
 
-.product-title {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
-}
+    const resultado = productosData.filter(p =>
+      (marca === "" || p.marca === marca) &&
+      (tipo === "" || p.tipo === tipo)
+    );
 
-.product-price {
-  color: #E53935;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
+    console.log("Filtro aplicado → Marca:", marca, "Tipo:", tipo);
+    console.log("Resultado del filtro:", resultado.map(p => p.nombre));
 
-/* ======= BOTONES ======= */
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn-primary {
-  background-color: #E53935;
-  color: #FFFFFF;
-}
-
-.btn-primary:hover {
-  background-color: #D32F2F;
-}
-
-.btn-secondary {
-  background-color: #1E88E5;
-  color: #FFFFFF;
-}
-
-.btn-secondary:hover {
-  background-color: #1565C0;
-}
+    renderProductos(resultado);
+  }

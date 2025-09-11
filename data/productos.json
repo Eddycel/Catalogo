@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Samsung Galaxy F05",
-    "precio": 140,
+    "precio": "140 USD",
     "imagen": "img/telefonos/f05.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -10,11 +10,11 @@
     "camara": "Dual 50MP + 8MP",
     "descripcion": "Ideal para uso diario.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 64 GB<br>Pantalla PLS de 6.7” y cámara dual de 50MP.<br>Incluye cover y caja.",
     "red": "2G/3G/4G",
-    "destacado": true
+    "destacado": false
   },
   {
     "nombre": "Samsung Galaxy A06",
-    "precio": 150,
+    "precio": "150 USD",
     "imagen": "img/telefonos/a06.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -27,7 +27,7 @@
   },
   {
     "nombre": "Samsung Galaxy A05s",
-    "precio": 165,
+    "precio": "165 USD",
     "imagen": "img/telefonos/a05s.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -40,7 +40,7 @@
   },
   {
     "nombre": "Samsung Galaxy F15",
-    "precio": 190,
+    "precio": "190 USD",
     "imagen": "img/telefonos/f15.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -53,7 +53,7 @@
   },
   {
     "nombre": "Samsung Galaxy A16",
-    "precio": 205,
+    "precio": "205 USD",
     "imagen": "img/telefonos/a16.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -66,7 +66,7 @@
   },
   {
     "nombre": "Samsung Galaxy A26",
-    "precio": 280,
+    "precio": "280 USD",
     "imagen": "img/telefonos/a26.jpg",
     "categoria": "telefonos",
     "ram": "6 GB",
@@ -76,5 +76,281 @@
     "descripcion": "Top de gama en este catálogo.<br><strong>RAM:</strong> 6 GB<br><strong>Memoria interna:</strong> 128 GB<br>Selfies impresionantes con cámara frontal de 32MP.<br>Cover y caja incluidos.",
     "red": "2G/3G/4G/5G",
     "destacado": true
+  },
+  {
+  "nombre": "Itel A90",
+  "precio": "120 USD",
+  "imagen": "img/telefonos/itel-a90.jpg",
+  "categoria": "telefonos",
+  "ram": "3 GB",
+  "memoria": "64 GB",
+  "pantalla": "6.6\" IPS",
+  "camara": "8MP",
+  "descripcion": "Buen rendimiento para el día a día.<br><strong>RAM:</strong> 3 GB<br><strong>Memoria interna:</strong> 64 GB<br>Pantalla IPS de 6.6”.",
+  "red": "2G/3G/4G",
+  "destacado": false
+},
+{
+  "nombre": "Redmi A5",
+  "precio": "135 USD",
+  "imagen": "img/telefonos/redmi-a5.jpg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "64 GB",
+  "pantalla": "6.71\" IPS",
+  "camara": "Dual 8MP + QVGA",
+  "descripcion": "Pantalla amplia y buen rendimiento.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 64 GB<br>Cámara dual y diseño moderno.",
+  "red": "2G/3G/4G",
+  "destacado": false
+},
+{
+  "nombre": "Itel A50",
+  "precio": "145 USD",
+  "imagen": "img/telefonos/itel-a50.jpg",
+  "categoria": "telefonos",
+  "ram": "3 GB + 5 GB virtual",
+  "memoria": "128 GB",
+  "pantalla": "6.6\" IPS",
+  "camara": "8MP",
+  "descripcion": "Gran capacidad con RAM expandida.<br><strong>RAM:</strong> 3 GB + 5 GB virtual<br><strong>Memoria interna:</strong> 128 GB<br>Cámara de 8MP.",
+  "red": "2G/3G/4G",
+  "destacado": true
+},
+{
+  "nombre": "Itel A90",
+  "precio": "160 USD",
+  "imagen": "img/telefonos/itel-a90.jpg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "256 GB",
+  "pantalla": "6.6\" IPS",
+  "camara": "8MP",
+  "descripcion": "Almacenamiento amplio y fluidez.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 256 GB<br>Pantalla IPS de 6.6”.",
+  "red": "2G/3G/4G",
+  "destacado": true
+},
+{
+  "nombre": "Tecno Spark 30C",
+  "precio": "150 USD",
+  "imagen": "img/telefonos/tecno-30c.jpg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "128 GB",
+  "pantalla": "6.6\" IPS",
+  "camara": "Dual 50MP + AI",
+  "descripcion": "Cámara potente y gran rendimiento.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 128 GB<br>Cámara de 50MP.",
+  "red": "2G/3G/4G",
+  "destacado": true
+},
+{
+  "nombre": "Redmi 14C",
+  "precio": "155 USD",
+  "imagen": "img/telefonos/redmi-14c.jpg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "128 GB",
+  "pantalla": "6.71\" IPS",
+  "camara": "Dual 13MP + 2MP",
+  "descripcion": "Buen balance entre rendimiento y precio.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 128 GB<br>Cámara dual.",
+  "red": "2G/3G/4G",
+  "destacado": false
+},
+{
+  "nombre": "Samsung Galaxy F16",
+  "precio": "170 USD",
+  "imagen": "img/telefonos/f16.jpg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "128 GB",
+  "pantalla": "6.7\" PLS",
+  "camara": "Dual 50MP + 8MP",
+  "descripcion": "Potente cámara y pantalla grande.<br><strong>RAM:</strong> 4 GB<br><strong>Memoria interna:</strong> 128 GB<br>Pantalla PLS de 6.7”.",
+  "red": "2G/3G/4G",
+  "destacado": true
+},
+{
+  "nombre": "Samsung Galaxy A16",
+  "precio": "185 USD",
+  "imagen": "img/telefonos/a16.jpg",
+  "categoria": "telefonos",
+  "ram": "6 GB",
+  "memoria": "128 GB",
+  "pantalla": "6.7\" PLS",
+  "camara": "Dual 50MP + 8MP",
+  "descripcion": "Excelente rendimiento para multitarea.<br><strong>RAM:</strong> 6 GB<br><strong>Memoria interna:</strong> 128 GB<br>Pantalla PLS de 6.7”.",
+  "red": "2G/3G/4G",
+  "destacado": true
+},
+
+  {
+    "nombre": "Audífonos de Cable",
+    "tipo": "auricular",
+    "precio": 5592,
+    "imagen": "img/accesorios/1hora_audifonos_aut117.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Audífonos In-Ear manos libres con entrada 3.5mm, micrófono incorporado, cable de 1.2m, cómodos y compatibles con múltiples dispositivos.",
+    "destacado": false
+  },
+  {
+    "nombre": "Audífonos de Casco",
+    "tipo": "auricular",
+    "precio": 62300,
+    "imagen": "img/accesorios/1hora_audifonos_aut202.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Audífonos de Bluetooth 5.1 con batería de 1000mAh, almohadillas acolchadas y luz LED con duración de hasta 33 Horas.",
+    "destacado": false
+  },
+  {
+    "nombre": "Batería portátil",
+    "tipo": "cargador-portatil",
+    "precio": 16111,
+    "imagen": "img/accesorios/1hora_bateria_gar148.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Power bank de 10000mAh con cables integrados (Micro USB, IP, Tipo C), linterna LED, y protección inteligente.",
+    "destacado": true
+  },
+  {
+    "nombre": "Batería portátil",
+    "tipo": "cargador-portatil",
+    "precio": 16756,
+    "imagen": "img/accesorios/1hora_bateria_gar263.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Batería portátil de 10000mAh con pantalla indicadora de carga LED, linterna, entrada tipo C, dos salidas USB y diseño compacto.",
+    "destacado": false
+  },
+  {
+    "nombre": "Bocina Bluetooth",
+    "tipo": "bocina",
+    "precio": 13460,
+    "imagen": "img/accesorios/1hora_bocina_boc062.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Bocina portátil con batería de 1500mAh, entradas USB, AUX, tarjeta microSD y sonido 360°.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable V8 Micro-B",
+    "tipo": "cable",
+    "precio": "1500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab242.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable V8 de 1 metro, carga rápida 2.1A, con protección inteligente y alta durabilidad (hasta 20000 ciclos).",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable Lightning para iPhone",
+    "tipo": "cable",
+    "precio": "1500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab243.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Lightning de 1 metro, carga rápida 2.1A, compatible con iPhone y iPad, diseño resistente.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable tipo C",
+    "tipo": "cable",
+    "precio": "1500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab244.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Tipo C de 1 metro, carga rápida 2.1A, reforzado, compatible con celulares y tablets.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable Tipo C-C",
+    "tipo": "cable",
+    "precio": "2500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab252.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Tipo C a Tipo C de 1 metro, carga turbo 3A, transferencia de datos, diseño reforzado.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable tipo C-Lightning iPhone",
+    "tipo": "cable",
+    "precio": "2500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab258.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Lightning de 1 metro, carga rápida 3A, transferencia de datos 480Mbps, resistente a dobleces.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador tipo C 20W con cable Tipo C",
+    "tipo": "cargador",
+    "precio": 8378,
+    "imagen": "img/accesorios/1hora_cargador_gar147.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador turbo con tecnología Power Delivery, incluye cable Tipo C a C de 3A para carga rápida y segura.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador inalámbrico 15W",
+    "tipo": "cargador",
+    "precio": 9800,
+    "imagen": "img/accesorios/1hora_cargador_gar151.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador inalámbrico compatible con smartphones de diversos modelos, con protección térmica y diseño compacto.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador tipo C 20W",
+    "tipo": "cargador",
+    "precio": 8900,
+    "imagen": "img/accesorios/1hora_cargador_gar152b.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador rápido USB-C con tecnología PD 3.0, ideal para iPhone, Samsung y Xiaomi. Protección contra sobrecarga.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador tipo C 20W con cable Lightning",
+    "tipo": "cargador",
+    "precio": 9800,
+    "imagen": "img/accesorios/1hora_cargador_gar154.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador turbo con cable Lightning incluido, carga tu iPhone con carga rápida y segura. Chip inteligente de protección.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador doble puerto USB-A y USB-C",
+    "tipo": "cargador",
+    "precio": 5800,
+    "imagen": "img/accesorios/1hora_cargador_gar161.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador de pared con salida dual USB-A y USB-C, potencia de 20W, ideal para carga simultánea de dos dispositivos.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador doble puerto",
+    "tipo": "cargador",
+    "precio": 8900,
+    "imagen": "img/accesorios/buyiti_cargador_car130.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador compacto con puerto USB 3.1A y Tipo C, tecnología Power Delivery compatible con dispositivos gama media.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador con cable V8",
+    "tipo": "cargador",
+    "precio": 2100,
+    "imagen": "img/accesorios/buyiti_cargador_car601.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador de pared con cable Micro USB (V8), carga rápida 2.1A, ideal para Android y dispositivos compatibles.",
+    "destacado": false
+  },
+  {
+    "nombre": "Audífonos Bluetooth",
+    "tipo": "auricular",
+    "precio": 12900,
+    "imagen": "img/accesorios/nebro_audifonos_we07.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Audífonos inalámbricos con Bluetooth 5.3, estuche de carga, micrófono incorporado y sonido estéreo de alta calidad.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador Tipo C",
+    "tipo": "cargador",
+    "precio": 10999,
+    "imagen": "img/accesorios/nebro_cargador_vga-201.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador rápido USB-C con tecnología PD 20W, compatible con la mayoria de modelos. Protección inteligente.",
+    "destacado": false
   }
 ]

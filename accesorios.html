@@ -5,38 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Accesorios | Eddycel</title>
   <link rel="stylesheet" href="css/estilos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Accesorios</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="telefonos.html">Teléfonos</a></li>
-        <li><a href="accesorios.html">Accesorios</a></li>
-        <li><a href="electrodomesticos.html">Electrodomésticos</a></li>
-      </ul>
-    <input type="text" id="buscador" placeholder="Buscar productos..." />
+  <header class="banner" id="banner">
+  <img src="img/logo.png" alt="Logo Eddycel" class="logo" />
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="telefonos.html">Teléfonos</a>
+        <a href="accesorios.html">Accesorios</a>
     </nav>
   </header>
 
-</header>
+  <nav class="header">
+  <div class="header-title"><h1>Tecnología y accesorios para ti</h1></div>
+  <div class="search-container">
+    <input type="text" id="buscador" placeholder="Buscar productos..." />
+  </div>
+</nav>
 
 <section id="filtros">
-  <select id="filtro-marca">
-    <option value="">Todas las marcas</option>
-    <option value="iPhone">iPhone</option>
-    <option value="Samsung">Samsung</option>
-    <option value="Xiaomi">Xiaomi</option>
-    <option value="anker">anker</option>
-    <!-- Agrega más marcas según necesidad -->
-  </select>
 
   <select id="filtro-tipo">
     <option value="">Todos los tipos</option>
-    <option value="funda">Fundas</option>
-    <option value="protector">Protectores</option>
+    <option value="cable">Cables</option>
     <option value="cargador">Cargadores</option>
+    <option value="cargador-portatil">Cargadores Portátiles</option>
+    <option value="auricular">Auriculares</option>
+    <option value="bocina">Bocinas</option>
     <!-- Agrega más tipos según necesidad -->
   </select>
 </section>

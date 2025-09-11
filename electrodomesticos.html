@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Electrodomesticos | Eddycel</title>
+  <title>Electrodomésticos | Eddycel</title>
   <link rel="stylesheet" href="css/estilos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Electrodomesticos</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="telefonos.html">Teléfonos</a></li>
-        <li><a href="accesorios.html">Accesorios</a></li>
-        <li><a href="electrodomesticos.html">Electrodomésticos</a></li>
-      </ul>
+  <header class="banner" id="banner">
+  <img src="img/logo.png" alt="Logo Eddycel" class="logo" />
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="telefonos.html">Teléfonos</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="electrodomesticos.html">Electrodomésticos</a>
     </nav>
   </header>
+
+  <nav class="header">
+  <div class="header-title"><h1>Tecnología y accesorios para ti</h1></div>
+  <div class="search-container">
+    <input type="text" id="buscador" placeholder="Buscar productos..." />
+  </div>
+</nav>
 
   <main>
     <div id="productos" class="grid-productos"></div>

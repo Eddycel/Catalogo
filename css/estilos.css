@@ -184,8 +184,6 @@ footer {
   top: 0;
   z-index: 1000;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1rem 2rem;
   background-image: repeating-linear-gradient(
     45deg,
@@ -200,11 +198,7 @@ footer {
 
 
 
-.banner.shrink {
-  padding: 0.4rem 0.5rem;
-  gap: 0;
-  flex-direction: column;
-}
+
 
 .logo {
   height: 60px;
@@ -216,23 +210,37 @@ footer {
   will-change: transform;
 }
 
-.banner.shrink .logo {
-  transform: scale(0.7);
-  filter: blur(0.2px);
-}
-
-
-.banner.shrink .titulo-banner {
-  opacity: 0;
-  font-size: 0;
-  height: 0;
-  overflow: hidden;
-}
-
 .banner .logo {
   filter: blur(0);
   transition: transform 0.4s ease, filter 0.3s ease;
 }
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem; /* Separación entre logo y nav */
+  padding: 1rem 2rem;
+  flex-wrap: wrap; /* Para evitar que el logo se estire si hay poco espacio */
+}
+
+.logo {
+  height: 60px;
+  width: auto; /* Asegura que conserve la proporción sin estirarse */
+}
+
+.banner nav {
+  display: flex;
+  gap: 1.5rem; /* Espacio entre los enlaces */
+}
+
+.banner nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 
 * {
   box-sizing: border-box;
