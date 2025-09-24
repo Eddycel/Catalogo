@@ -64,27 +64,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🎯 Filtros dinámicos
-  const filtroMarca = document.getElementById("filtro-marca");
-  const filtroTipo = document.getElementById("filtro-tipo");
+const filtroTipo = document.getElementById("filtro-tipo");
 
-  if (filtroMarca && filtroTipo) {
-    filtroMarca.addEventListener("change", aplicarFiltros);
-    filtroTipo.addEventListener("change", aplicarFiltros);
-  }
+if (filtroTipo) {
+  filtroTipo.addEventListener("change", aplicarFiltroTipo);
+}
 
-  function aplicarFiltros() {
-    const marca = filtroMarca.value;
-    const tipo = filtroTipo.value;
+function aplicarFiltroTipo() {
+  const tipo = filtroTipo.value;
 
-    const resultado = productosData.filter(p =>
-      (marca === "" || p.marca === marca) &&
-      (tipo === "" || p.tipo === tipo)
-    );
+  const resultado = productosData.filter(p =>
+    tipo === "" || p.categoria === tipo || p.tipo === tipo
+  );
 
-    console.log("Filtro aplicado → Marca:", marca, "Tipo:", tipo);
-    console.log("Resultado del filtro:", resultado.map(p => p.nombre));
+  console.log("Filtro aplicado → Tipo:", tipo);
+  console.log("Resultado del filtro:", resultado.map(p => p.nombre));
 
-    renderProductos(resultado);
-  }
+  renderProductos(resultado);
+}
+
 });
