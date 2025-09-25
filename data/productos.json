@@ -75,7 +75,7 @@
     "camara": "Single 13MP-5MP",
     "descripcion": "El iTel A90 combina un amplio almacenamiento de 128GB con una pantalla fluida de 90 Hz, ofreciendo una excelente experiencia de usuario a un precio competitivo. Viene con cover y en su caja.",
     "red": "2G/3G/4G",
-    "destacado": false
+    "destacado": true
   },
   {
     "nombre": "Redmi A5",
