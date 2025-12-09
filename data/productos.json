@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Samsung Galaxy F05",
-    "precio": "140 USD",
+    "precio": "56500 CUP",
     "imagen": "img/telefonos/samsung_f05.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -13,21 +13,23 @@
     "destacado": false
   },
   {
-    "nombre": "Samsung Galaxy A07",
-    "precio": "165 USD",
-    "imagen": "img/telefonos/samsung_a07.jpg",
-    "categoria": "telefonos",
-    "ram": "4 GB",
-    "memoria": "64 GB",
-    "pantalla": "6.7\" PLS 90 Hz",
-    "camara": "Dual 50MP-8MP",
-    "descripcion": "El Samsung Galaxy A07 ofrece un rendimiento sólido y una pantalla fluida de 90 Hz, perfecto para el día a día. Captura excelentes fotos con su cámara de 50MP. Viene en su caja.",
-    "red": "2G/3G/4G",
-    "destacado": false
-  },
+  "nombre": "Samsung F07",
+  "precio": "65500 CUP",
+  "imagen": "img/telefonos/samsung_F07.jpeg",
+  "categoria": "telefonos",
+  "ram": "4 GB",
+  "memoria": "64 GB",
+  "pantalla": "6.5\" HD+",
+  "camara": "Dual 48MP-8MP",
+  "descripcion": "Teléfono Samsung F07 con 4GB de RAM y 64GB de almacenamiento interno. Pantalla HD+, cámara dual de 48MP para fotos nítidas y batería de larga duración. Incluye cover y caja.",
+  "red": "2G/3G/4G",
+  "destacado": false
+},
+
+
   {
     "nombre": "Samsung Galaxy F16 5G",
-    "precio": "195 USD",
+    "precio": "83500 CUP",
     "imagen": "img/telefonos/samsung_f16_5g.jpg",
     "categoria": "telefonos",
     "ram": "4 GB",
@@ -41,7 +43,7 @@
   {
     "nombre": "Audífonos de Cable",
     "tipo": "auricular",
-    "precio": 5592,
+    "precio": "800 CUP",
     "imagen": "img/accesorios/1hora_audifonos_aut117.jpg",
     "categoria": "accesorios",
     "descripcion": "Audífonos In-Ear manos libres con entrada 3.5mm, micrófono incorporado, cable de 1.2m, cómodos y compatibles con múltiples dispositivos.",
@@ -50,43 +52,34 @@
   {
     "nombre": "Audífonos de Casco",
     "tipo": "auricular",
-    "precio": 62300,
+    "precio": "10000 CUP",
     "imagen": "img/accesorios/1hora_audifonos_aut202.jpg",
     "categoria": "accesorios",
     "descripcion": "Audífonos de Bluetooth 5.1 con batería de 1000mAh, almohadillas acolchadas y luz LED con duración de hasta 33 Horas.",
     "destacado": false
   },
   {
-    "nombre": "Batería portátil",
+    "nombre": "Batería portátil 10000mAh",
     "tipo": "cargador-portatil",
-    "precio": 16111,
+    "precio": "6000 CUP",
     "imagen": "img/accesorios/1hora_bateria_gar148.jpg",
     "categoria": "accesorios",
     "descripcion": "Power bank de 10000mAh con cables integrados (Micro USB, IP, Tipo C), linterna LED, y protección inteligente.",
     "destacado": true
   },
   {
-    "nombre": "Batería portátil",
+    "nombre": "Batería portátil 10000mAh",
     "tipo": "cargador-portatil",
-    "precio": 16756,
+    "precio": "6000 CUP",
     "imagen": "img/accesorios/1hora_bateria_gar263.jpg",
     "categoria": "accesorios",
     "descripcion": "Batería portátil de 10000mAh con pantalla indicadora de carga LED, linterna, entrada tipo C, dos salidas USB y diseño compacto.",
     "destacado": false
   },
   {
-    "nombre": "Bocina Bluetooth",
-    "tipo": "bocina",
-    "precio": 13460,
-    "imagen": "img/accesorios/1hora_bocina_boc062.jpg",
-    "categoria": "accesorios",
-    "descripcion": "Bocina portátil con batería de 1500mAh, entradas USB, AUX, tarjeta microSD y sonido 360°.",
-    "destacado": false
-  },
-  {
     "nombre": "Cable V8 Micro-B",
     "tipo": "cable",
-    "precio": "1500 CUP",
+    "precio": "1000 CUP",
     "imagen": "img/accesorios/1hora_cable_cab242.jpg",
     "categoria": "accesorios",
     "descripcion": "Cable V8 de 1 metro, carga rápida 2.1A, con protección inteligente y alta durabilidad (hasta 20000 ciclos).",
@@ -95,7 +88,7 @@
   {
     "nombre": "Cable Lightning para iPhone",
     "tipo": "cable",
-    "precio": "1500 CUP",
+    "precio": "1000 CUP",
     "imagen": "img/accesorios/1hora_cable_cab243.jpg",
     "categoria": "accesorios",
     "descripcion": "Cable Lightning de 1 metro, carga rápida 2.1A, compatible con iPhone y iPad, diseño resistente.",
@@ -104,34 +97,16 @@
   {
     "nombre": "Cable tipo C",
     "tipo": "cable",
-    "precio": "1500 CUP",
+    "precio": "1000 CUP",
     "imagen": "img/accesorios/1hora_cable_cab244.jpg",
     "categoria": "accesorios",
     "descripcion": "Cable Tipo C de 1 metro, carga rápida 2.1A, reforzado, compatible con celulares y tablets.",
     "destacado": false
   },
   {
-    "nombre": "Cable Tipo C-C",
-    "tipo": "cable",
-    "precio": "2500 CUP",
-    "imagen": "img/accesorios/1hora_cable_cab252.jpg",
-    "categoria": "accesorios",
-    "descripcion": "Cable Tipo C a Tipo C de 1 metro, carga turbo 3A, transferencia de datos, diseño reforzado.",
-    "destacado": false
-  },
-  {
-    "nombre": "Cable tipo C-Lightning iPhone",
-    "tipo": "cable",
-    "precio": "2500 CUP",
-    "imagen": "img/accesorios/1hora_cable_cab258.jpg",
-    "categoria": "accesorios",
-    "descripcion": "Cable Lightning de 1 metro, carga rápida 3A, transferencia de datos 480Mbps, resistente a dobleces.",
-    "destacado": false
-  },
-  {
     "nombre": "Cargador tipo C 20W con cable Tipo C",
     "tipo": "cargador",
-    "precio": 8378,
+    "precio": "5000 CUP",
     "imagen": "img/accesorios/1hora_cargador_gar147.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador turbo con tecnología Power Delivery, incluye cable Tipo C a C de 3A para carga rápida y segura.",
@@ -140,7 +115,7 @@
   {
     "nombre": "Cargador inalámbrico 15W",
     "tipo": "cargador",
-    "precio": 9800,
+    "precio": "6000 CUP",
     "imagen": "img/accesorios/1hora_cargador_gar151.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador inalámbrico compatible con smartphones de diversos modelos, con protección térmica y diseño compacto.",
@@ -149,7 +124,7 @@
   {
     "nombre": "Cargador tipo C 20W",
     "tipo": "cargador",
-    "precio": 8900,
+    "precio": "4000 CUP",
     "imagen": "img/accesorios/1hora_cargador_gar152b.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador rápido USB-C con tecnología PD 3.0, ideal para iPhone, Samsung y Xiaomi. Protección contra sobrecarga.",
@@ -158,25 +133,17 @@
   {
     "nombre": "Cargador tipo C 20W con cable Lightning",
     "tipo": "cargador",
-    "precio": 9800,
+    "precio": "5000 CUP",
     "imagen": "img/accesorios/1hora_cargador_gar154.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador turbo con cable Lightning incluido, carga tu iPhone con carga rápida y segura. Chip inteligente de protección.",
     "destacado": false
   },
-  {
-    "nombre": "Cargador doble puerto USB-A y USB-C",
-    "tipo": "cargador",
-    "precio": 5800,
-    "imagen": "img/accesorios/1hora_cargador_gar161.jpg",
-    "categoria": "accesorios",
-    "descripcion": "Cargador de pared con salida dual USB-A y USB-C, potencia de 20W, ideal para carga simultánea de dos dispositivos.",
-    "destacado": false
-  },
+  
   {
     "nombre": "Cargador doble puerto",
     "tipo": "cargador",
-    "precio": 8900,
+    "precio": "2000 CUP",
     "imagen": "img/accesorios/buyiti_cargador_car130.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador compacto con puerto USB 3.1A y Tipo C, tecnología Power Delivery compatible con dispositivos gama media.",
@@ -185,7 +152,7 @@
   {
     "nombre": "Cargador con cable V8",
     "tipo": "cargador",
-    "precio": 2100,
+    "precio": "2200 CUP",
     "imagen": "img/accesorios/buyiti_cargador_car601.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador de pared con cable Micro USB (V8), carga rápida 2.1A, ideal para Android y dispositivos compatibles.",
@@ -194,19 +161,256 @@
   {
     "nombre": "Audífonos Bluetooth",
     "tipo": "auricular",
-    "precio": 12900,
+    "precio": "3500 CUP",
     "imagen": "img/accesorios/nebro_audifonos_we07.jpg",
     "categoria": "accesorios",
     "descripcion": "Audífonos inalámbricos con Bluetooth 5.3, estuche de carga, micrófono incorporado y sonido estéreo de alta calidad.",
     "destacado": false
   },
   {
-    "nombre": "Cargador Tipo C",
-    "tipo": "cargador",
-    "precio": 10999,
-    "imagen": "img/accesorios/nebro_cargador_vga-201.jpg",
-    "categoria": "accesorios",
-    "descripcion": "Cargador rápido USB-C con tecnología PD 20W, compatible con la mayoria de modelos. Protección inteligente.",
-    "destacado": false
-  }
+  "nombre": "Tira LED RGB LED2835",
+  "precio": "4000 CUP",
+  "imagen": "img/electrodomesticos/LED2835.png",
+  "categoria": "electrodomesticos",
+  "descripcion": "Tira LED RGB modelo LED2835 de alta eficiencia, ideal para decoración de interiores y exteriores. Ofrece iluminación multicolor ajustable, bajo consumo energético y larga duración. Perfecta para resaltar ambientes, muebles o espacios creativos.",
+  "destacado": false
+},
+{
+  "nombre": "Extensión eléctrica y de USB",
+  "precio": "4000 CUP",
+  "imagen": "img/electrodomesticos/CHA12F.png",
+  "categoria": "electrodomesticos",
+  "descripcion": "Extensión eléctrica multifuncional modelo CHA12F con tomacorrientes universales y puertos USB integrados. Ideal para conectar múltiples dispositivos de manera segura, con protección contra sobrecarga y diseño compacto para el hogar u oficina.",
+  "destacado": false
+},
+{
+  "nombre": "Localizador Bluetooth tipo llavero",
+  "precio": "1500 CUP",
+  "imagen": "img/accesorios/localizador_BT.png",
+  "categoria": "accesorios",
+  "descripcion": "Localizador Bluetooth compacto en formato de llavero, ideal para encontrar fácilmente tus objetos personales como llaves, mochilas o carteras. Se conecta a tu smartphone mediante aplicación dedicada, con alerta sonora y localización en mapa. Bajo consumo energético y diseño portátil.",
+  "destacado": false
+},
+{
+  "nombre": "Cover sumergible para teléfono",
+  "tipo": "cover",
+  "precio": "2000 CUP",
+  "imagen": "img/accesorios/cover_agua.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Cover protector universal a prueba de agua, diseñado para sumergir el teléfono de forma segura. Compatible con la mayoría de modelos, ofrece protección contra polvo, arena y humedad, ideal para playa, piscina o actividades al aire libre.",
+  "destacado": false
+},
+{
+  "nombre": "Ventilador recargable modelo X3 7500mAh",
+  "precio": "16000 CUP",
+  "imagen": "img/electrodomesticos/Ventilador_X3.png",
+  "categoria": "electrodomesticos",
+  "descripcion": "Ventilador portátil recargable modelo X3, ideal para uso en el hogar, oficina o exteriores. Cuenta con batería de larga duración, múltiples velocidades de ventilación y diseño compacto para fácil transporte. Perfecto para mantener frescura en cualquier lugar sin depender de la corriente eléctrica.",
+  "destacado": false
+},
+{
+  "nombre": "Ventilador recargable modelo F6 20000mAh",
+  "precio": "25000 CUP",
+  "imagen": "img/electrodomesticos/ventilador_f6.jpeg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Ventilador portátil recargable modelo F6 con batería de gran capacidad de 20000mAh. Ofrece múltiples velocidades de ventilación, autonomía prolongada para uso continuo y diseño compacto ideal para el hogar, oficina o actividades al aire libre. Perfecto para mantener frescura sin depender de la corriente eléctrica.",
+  "destacado": false
+},
+{
+  "nombre": "Ventilador recargable modelo F6 30000mAh",
+  "precio": "28000 CUP",
+  "imagen": "img/electrodomesticos/ventilador_f6.jpeg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Ventilador portátil recargable modelo F6 con batería de gran capacidad de 20000mAh. Ofrece múltiples velocidades de ventilación, autonomía prolongada para uso continuo y diseño compacto ideal para el hogar, oficina o actividades al aire libre. Perfecto para mantener frescura sin depender de la corriente eléctrica.",
+  "destacado": false
+},
+{
+  "nombre": "Mousepad",
+  "tipo": "mousepad",
+  "precio": "800 CUP",
+  "imagen": "img/accesorios/mousepad.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Mousepad básico de superficie lisa y antideslizante, diseñado para un control preciso del ratón. Compacto, ligero y compatible con todo tipo de mouse óptico o láser. Ideal para uso en oficina, estudio o gaming casual.",
+  "destacado": false
+},
+{
+  "nombre": "Smartwatch Ultra",
+  "tipo": "smartwatch",
+  "precio": "13500 CUP",
+  "imagen": "img/accesorios/smartwatch_ultra.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Smartwatch Ultra compatible con dispositivos Android, equipado con pantalla táctil de alta resolución, monitoreo de salud (frecuencia cardíaca, pasos, sueño), notificaciones inteligentes y batería de larga duración. Diseño moderno y resistente, ideal para uso diario y actividades deportivas.",
+  "destacado": false
+},
+{
+  "nombre": "Smartwatch Wisme-3",
+  "tipo": "smartwatch",
+  "precio": "11500 CUP",
+  "imagen": "img/accesorios/smartwatch_10.png",
+  "categoria": "accesorios",
+  "descripcion": "Smartwatch Wisme-3 compatible con dispositivos Android, equipado con pantalla táctil de alta definición, monitoreo de salud (frecuencia cardíaca, pasos, sueño), notificaciones inteligentes y batería de larga duración. Diseño elegante y resistente, ideal para uso diario y actividades deportivas.",
+  "destacado": false
+},
+{
+  "nombre": "Mouse inalámbrico",
+  "tipo": "mouse",
+  "precio": "4500 CUP",
+  "imagen": "img/accesorios/1Hora_Mouse_RAT001.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Mouse inalámbrico con conexión estable vía receptor USB, diseño ergonómico y alta precisión. Ideal para uso en oficina, estudio o gaming casual. Batería de larga duración y compatibilidad con Windows, Mac y dispositivos Android.",
+  "destacado": false
+},
+{
+  "nombre": "Lámpara recargable 52W",
+  "precio": "3000 CUP",
+  "imagen": "img/electrodomesticos/lampara_recargable.jpeg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Lámpara recargable de 52W con batería de larga duración, ideal para cortes eléctricos o uso en exteriores. Ofrece iluminación potente y uniforme, múltiples niveles de brillo y diseño portátil para fácil transporte. Perfecta para el hogar, oficina o actividades al aire libre.",
+  "destacado": false
+},
+{
+  "nombre": "Lámpara solar 45W",
+  "precio": "8000 CUP",
+  "imagen": "img/electrodomesticos/lampara_solar_45W.jpg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Lámpara solar modelo Wanergy 40755 de 45W, diseñada para iluminación eficiente y ecológica. Funciona con energía solar, cuenta con batería recargable integrada y múltiples niveles de brillo. Ideal para exteriores, patios, jardines o zonas sin acceso a corriente eléctrica.",
+  "destacado": false
+},
+{
+  "nombre": "Bombillo LED recargable 36W",
+  "precio": "2800 CUP",
+  "imagen": "img/electrodomesticos/Bombillo_LT36W.jpg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Bombillo LED recargable de 36W, ideal para cortes eléctricos y uso en interiores. Ofrece iluminación potente y eficiente, con batería integrada de larga duración y diseño estándar compatible con la mayoría de portalámparas. Perfecto para ahorrar energía y mantener luz en cualquier situación.",
+  "destacado": false
+},
+{
+  "nombre": "Bombillo recargable 30W",
+  "precio": "2300 CUP",
+  "imagen": "img/electrodomesticos/Bombillo_30W.jpg",
+  "categoria": "electrodomesticos",
+  "descripcion": "Bombillo LED recargable Wanergy de 30W, diseñado para ofrecer iluminación eficiente y confiable durante cortes eléctricos. Cuenta con batería integrada de larga duración, luz brillante y diseño estándar compatible con la mayoría de portalámparas. Ideal para el hogar, oficina o espacios donde se requiera ahorro energético y respaldo de iluminación.",
+  "destacado": false
+},
+{
+  "nombre": "Soporte para móvil de carro PJ033",
+  "tipo": "soporte",
+  "precio": "2500 CUP",
+  "imagen": "img/accesorios/1hora_soporte_pj033.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Soporte para móvil modelo PJ033, ajustable y resistente, diseñado para sujetar el teléfono en el carro de forma segura. Compatible con múltiples tamaños de dispositivos y fácil de instalar en rejillas de ventilación.",
+  "destacado": false
+},
+{
+  "nombre": "Soporte para móvil de carro PJ093",
+  "tipo": "soporte",
+  "precio": "2500 CUP",
+  "imagen": "img/accesorios/1hora_soporte_pj093.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Soporte para móvil modelo PJ093 con rotación de 360°, ideal para visualizar el teléfono en cualquier ángulo. Fabricado en materiales duraderos y con sistema de sujeción firme para conducción segura.",
+  "destacado": false
+},
+{
+  "nombre": "Soporte para móvil de carro PJ097",
+  "tipo": "soporte",
+  "precio": "2000 CUP",
+  "imagen": "img/accesorios/1hora_soporte_pj097.png",
+  "categoria": "accesorios",
+  "descripcion": "Soporte para móvil modelo PJ097 con base antideslizante, perfecto para colocar el teléfono en el tablero o parabrisas. Compatible con dispositivos de distintos tamaños.",
+  "destacado": false
+},
+{
+  "nombre": "Soporte para móvil de carro PJ098",
+  "tipo": "soporte",
+  "precio": "2500 CUP",
+  "imagen": "img/accesorios/1hora_soporte_pj098.png",
+  "categoria": "accesorios",
+  "descripcion": "Soporte para móvil modelo PJ098 con diseño compacto y sistema de sujeción magnética. Permite colocar y retirar el teléfono de manera rápida y segura, ideal para un uso práctico en el carro.",
+  "destacado": false
+},
+{
+  "nombre": "Bocina Bluetooth GTS-1349",
+  "tipo": "altavoz",
+  "precio": "3500 CUP",
+  "imagen": "img/accesorios/GTS-1349.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Bocina portátil Bluetooth modelo GTS-1349 de 3 pulgadas, compacta y ligera con agarradera. Compatible con smartphones, laptops y tablets. Incluye entradas USB y Micro SD, función de radio FM y batería recargable. Disponible en varios colores.",
+  "destacado": false
+},
+{
+  "nombre": "Batería portátil 20000mAh",
+  "tipo": "batería",
+  "precio": "9000 CUP",
+  "imagen": "img/accesorios/1hora_bateria_gar117.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Batería portátil modelo GAR117 con gran capacidad de carga 20000mAh, ideal para mantener tus dispositivos móviles siempre encendidos. Compatible con smartphones, tablets y otros equipos electrónicos. Diseño compacto y ligero, fácil de transportar, con puertos USB de salida rápida.",
+  "destacado": false
+},
+{
+  "nombre": "Batería portátil 20000mAh",
+  "tipo": "batería",
+  "precio": "10000 CUP",
+  "imagen": "img/accesorios/1hora_bateria_gar158.png",
+  "categoria": "accesorios",
+  "descripcion": "Batería portátil modelo GAR158 con capacidad de 20000mAh y salida rápida de 22.5W. Ideal para cargar smartphones, tablets y otros dispositivos electrónicos de manera eficiente. Diseño compacto y resistente, con múltiples puertos de salida para mayor versatilidad.",
+  "destacado": false
+},
+{
+  "nombre": "Batería portátil 10000mAh",
+  "tipo": "batería",
+  "precio": "8000 CUP",
+  "imagen": "img/accesorios/1hora_bateria_gar264.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Batería portátil modelo GAR264 con capacidad de 10000mAh y salida rápida de 22.5W. Compacta y ligera, ideal para cargar smartphones, tablets y otros dispositivos electrónicos de manera eficiente. Incluye múltiples puertos de salida para mayor versatilidad y seguridad.",
+  "destacado": false
+},
+{
+  "nombre": "Batería portátil 10000mAh",
+  "tipo": "batería",
+  "precio": "5000 CUP",
+  "imagen": "img/accesorios/moreka_bateria_k064.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Batería portátil modelo K064 con capacidad de 10000mAh, ideal para cargar smartphones, tablets y otros dispositivos electrónicos. Compacta y ligera, con puertos USB de salida rápida y diseño resistente para uso diario o viajes.",
+  "destacado": false
+},
+{
+  "nombre": "Cargador de auto salida C",
+  "tipo": "cargador",
+  "precio": "2500 CUP",
+  "imagen": "img/accesorios/1hora_cargador_gar156.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Cargador de auto modelo GAR156 con salida tipo C. Compatible con smartphones, tablets y otros dispositivos electrónicos. Diseño compacto y resistente, ideal para mantener tus equipos cargados durante viajes.",
+  "destacado": false
+},
+{
+  "nombre": "Cargador de auto 18W",
+  "tipo": "cargador",
+  "precio": "2400 CUP",
+  "imagen": "img/accesorios/1hora_cargador_gar116.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Cargador de auto modelo GAR116 con salida rápida de 18W. Ofrece carga eficiente y segura para dispositivos móviles. Diseño portátil y duradero, perfecto para uso diario en el carro.",
+  "destacado": false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

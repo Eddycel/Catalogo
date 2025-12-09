@@ -283,4 +283,61 @@ filtro marcas
     "red": "2G/3G/4G/5G",
     "destacado": true
   },
-  
+  {
+    "nombre": "Bocina Bluetooth",
+    "tipo": "bocina",
+    "precio": 13460,
+    "imagen": "img/accesorios/1hora_bocina_boc062.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Bocina portátil con batería de 1500mAh, entradas USB, AUX, tarjeta microSD y sonido 360°.",
+    "destacado": false
+  },
+    {
+    "nombre": "Cable Tipo C-C",
+    "tipo": "cable",
+    "precio": "2500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab252.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Tipo C a Tipo C de 1 metro, carga turbo 3A, transferencia de datos, diseño reforzado.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cable tipo C-Lightning iPhone",
+    "tipo": "cable",
+    "precio": "2500 CUP",
+    "imagen": "img/accesorios/1hora_cable_cab258.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cable Lightning de 1 metro, carga rápida 3A, transferencia de datos 480Mbps, resistente a dobleces.",
+    "destacado": false
+  },
+{
+    "nombre": "Cargador doble puerto USB-A y USB-C",
+    "tipo": "cargador",
+    "precio": 5800,
+    "imagen": "img/accesorios/1hora_cargador_gar161.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador de pared con salida dual USB-A y USB-C, potencia de 20W, ideal para carga simultánea de dos dispositivos.",
+    "destacado": false
+  },
+  {
+    "nombre": "Cargador Tipo C",
+    "tipo": "cargador",
+    "precio": 10999,
+    "imagen": "img/accesorios/nebro_cargador_vga-201.jpg",
+    "categoria": "accesorios",
+    "descripcion": "Cargador rápido USB-C con tecnología PD 20W, compatible con la mayoria de modelos. Protección inteligente.",
+    "destacado": false
+  }
+  {
+    "nombre": "Samsung Galaxy A07",
+    "precio": "",
+    "imagen": "img/telefonos/samsung_a07.jpg",
+    "categoria": "telefonos",
+    "ram": "4 GB",
+    "memoria": "64 GB",
+    "pantalla": "6.7\" PLS 90 Hz",
+    "camara": "Dual 50MP-8MP",
+    "descripcion": "El Samsung Galaxy A07 ofrece un rendimiento sólido y una pantalla fluida de 90 Hz, perfecto para el día a día. Captura excelentes fotos con su cámara de 50MP. Viene en su caja.",
+    "red": "2G/3G/4G",
+    "destacado": false
+  },
