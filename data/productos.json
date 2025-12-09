@@ -10,7 +10,7 @@
     "camara": "Dual 50MP-8MP",
     "descripcion": "El Samsung Galaxy F05 ofrece una experiencia visual inmersiva con su pantalla de 6.7 pulgadas y un potente sistema de cámara dual de 50MP, ideal para fotografía. Se entrega en su caja.",
     "red": "2G/3G/4G",
-    "destacado": false
+    "destacado": true
   },
   {
   "nombre": "Samsung F07",
@@ -23,7 +23,7 @@
   "camara": "Dual 48MP-8MP",
   "descripcion": "Teléfono Samsung F07 con 4GB de RAM y 64GB de almacenamiento interno. Pantalla HD+, cámara dual de 48MP para fotos nítidas y batería de larga duración. Incluye cover y caja.",
   "red": "2G/3G/4G",
-  "destacado": false
+  "destacado": true
 },
 
 
@@ -137,7 +137,7 @@
     "imagen": "img/accesorios/1hora_cargador_gar154.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador turbo con cable Lightning incluido, carga tu iPhone con carga rápida y segura. Chip inteligente de protección.",
-    "destacado": false
+    "destacado": true
   },
   
   {
@@ -206,7 +206,7 @@
   "imagen": "img/electrodomesticos/Ventilador_X3.png",
   "categoria": "electrodomesticos",
   "descripcion": "Ventilador portátil recargable modelo X3, ideal para uso en el hogar, oficina o exteriores. Cuenta con batería de larga duración, múltiples velocidades de ventilación y diseño compacto para fácil transporte. Perfecto para mantener frescura en cualquier lugar sin depender de la corriente eléctrica.",
-  "destacado": false
+  "destacado": true
 },
 {
   "nombre": "Ventilador recargable modelo F6 20000mAh",
@@ -240,7 +240,7 @@
   "imagen": "img/accesorios/smartwatch_ultra.jpeg",
   "categoria": "accesorios",
   "descripcion": "Smartwatch Ultra compatible con dispositivos Android, equipado con pantalla táctil de alta resolución, monitoreo de salud (frecuencia cardíaca, pasos, sueño), notificaciones inteligentes y batería de larga duración. Diseño moderno y resistente, ideal para uso diario y actividades deportivas.",
-  "destacado": false
+  "destacado": true
 },
 {
   "nombre": "Smartwatch Wisme-3",
@@ -274,7 +274,7 @@
   "imagen": "img/electrodomesticos/lampara_solar_45W.jpg",
   "categoria": "electrodomesticos",
   "descripcion": "Lámpara solar modelo Wanergy 40755 de 45W, diseñada para iluminación eficiente y ecológica. Funciona con energía solar, cuenta con batería recargable integrada y múltiples niveles de brillo. Ideal para exteriores, patios, jardines o zonas sin acceso a corriente eléctrica.",
-  "destacado": false
+  "destacado": true
 },
 {
   "nombre": "Bombillo LED recargable 36W",
@@ -282,7 +282,7 @@
   "imagen": "img/electrodomesticos/Bombillo_LT36W.jpg",
   "categoria": "electrodomesticos",
   "descripcion": "Bombillo LED recargable de 36W, ideal para cortes eléctricos y uso en interiores. Ofrece iluminación potente y eficiente, con batería integrada de larga duración y diseño estándar compatible con la mayoría de portalámparas. Perfecto para ahorrar energía y mantener luz en cualquier situación.",
-  "destacado": false
+  "destacado": true
 },
 {
   "nombre": "Bombillo recargable 30W",
@@ -344,7 +344,7 @@
   "imagen": "img/accesorios/1hora_bateria_gar117.jpeg",
   "categoria": "accesorios",
   "descripcion": "Batería portátil modelo GAR117 con gran capacidad de carga 20000mAh, ideal para mantener tus dispositivos móviles siempre encendidos. Compatible con smartphones, tablets y otros equipos electrónicos. Diseño compacto y ligero, fácil de transportar, con puertos USB de salida rápida.",
-  "destacado": false
+  "destacado": true
 },
 {
   "nombre": "Batería portátil 20000mAh",
