@@ -65,7 +65,7 @@
     "imagen": "img/accesorios/1hora_bateria_gar148.jpg",
     "categoria": "accesorios",
     "descripcion": "Power bank de 10000mAh con cables integrados (Micro USB, IP, Tipo C), linterna LED, y protección inteligente.",
-    "destacado": true
+    "destacado": false
   },
   {
     "nombre": "Batería portátil 10000mAh",
@@ -185,6 +185,7 @@
 },
 {
   "nombre": "Localizador Bluetooth tipo llavero",
+  "tipo": "varios",
   "precio": "1500 CUP",
   "imagen": "img/accesorios/localizador_BT.png",
   "categoria": "accesorios",
@@ -193,7 +194,7 @@
 },
 {
   "nombre": "Cover sumergible para teléfono",
-  "tipo": "cover",
+  "tipo": "varios",
   "precio": "2000 CUP",
   "imagen": "img/accesorios/cover_agua.jpeg",
   "categoria": "accesorios",
@@ -209,13 +210,14 @@
   "destacado": true
 },
 {
-  "nombre": "Ventilador recargable modelo F6 20000mAh",
-  "precio": "25000 CUP",
-  "imagen": "img/electrodomesticos/ventilador_f6.jpeg",
+  "nombre": "Ventilador recargable modelo 8606S 30000mAh",
+  "precio": "28000 CUP",
+  "imagen": "img/electrodomesticos/ventilador_8606S.jpeg",
   "categoria": "electrodomesticos",
-  "descripcion": "Ventilador portátil recargable modelo F6 con batería de gran capacidad de 20000mAh. Ofrece múltiples velocidades de ventilación, autonomía prolongada para uso continuo y diseño compacto ideal para el hogar, oficina o actividades al aire libre. Perfecto para mantener frescura sin depender de la corriente eléctrica.",
+  "descripcion": "Ventilador portátil recargable modelo 8606S con batería de gran capacidad de 30000mAh. Ofrece 8 velocidades ajustables para un flujo de aire personalizado, autonomía prolongada para uso continuo y diseño moderno y compacto. Ideal para el hogar, oficina o actividades al aire libre sin depender de la corriente eléctrica.",
   "destacado": false
 },
+
 {
   "nombre": "Ventilador recargable modelo F6 30000mAh",
   "precio": "28000 CUP",
@@ -226,7 +228,7 @@
 },
 {
   "nombre": "Mousepad",
-  "tipo": "mousepad",
+  "tipo": "varios",
   "precio": "800 CUP",
   "imagen": "img/accesorios/mousepad.jpeg",
   "categoria": "accesorios",
@@ -253,7 +255,7 @@
 },
 {
   "nombre": "Mouse inalámbrico",
-  "tipo": "mouse",
+  "tipo": "varios",
   "precio": "4500 CUP",
   "imagen": "img/accesorios/1Hora_Mouse_RAT001.jpeg",
   "categoria": "accesorios",
@@ -294,7 +296,7 @@
 },
 {
   "nombre": "Soporte para móvil de carro PJ033",
-  "tipo": "soporte",
+  "tipo": "varios",
   "precio": "2500 CUP",
   "imagen": "img/accesorios/1hora_soporte_pj033.jpeg",
   "categoria": "accesorios",
@@ -303,7 +305,7 @@
 },
 {
   "nombre": "Soporte para móvil de carro PJ093",
-  "tipo": "soporte",
+  "tipo": "varios",
   "precio": "2500 CUP",
   "imagen": "img/accesorios/1hora_soporte_pj093.jpeg",
   "categoria": "accesorios",
@@ -312,7 +314,7 @@
 },
 {
   "nombre": "Soporte para móvil de carro PJ097",
-  "tipo": "soporte",
+  "tipo": "varios",
   "precio": "2000 CUP",
   "imagen": "img/accesorios/1hora_soporte_pj097.png",
   "categoria": "accesorios",
@@ -321,7 +323,7 @@
 },
 {
   "nombre": "Soporte para móvil de carro PJ098",
-  "tipo": "soporte",
+  "tipo": "varios",
   "precio": "2500 CUP",
   "imagen": "img/accesorios/1hora_soporte_pj098.png",
   "categoria": "accesorios",
@@ -330,7 +332,7 @@
 },
 {
   "nombre": "Bocina Bluetooth GTS-1349",
-  "tipo": "altavoz",
+  "tipo": "bocina",
   "precio": "3500 CUP",
   "imagen": "img/accesorios/GTS-1349.jpeg",
   "categoria": "accesorios",
@@ -339,7 +341,7 @@
 },
 {
   "nombre": "Batería portátil 20000mAh",
-  "tipo": "batería",
+  "tipo": "cargador-portatil",
   "precio": "9000 CUP",
   "imagen": "img/accesorios/1hora_bateria_gar117.jpeg",
   "categoria": "accesorios",
@@ -348,7 +350,7 @@
 },
 {
   "nombre": "Batería portátil 20000mAh",
-  "tipo": "batería",
+  "tipo": "cargador-portatil",
   "precio": "10000 CUP",
   "imagen": "img/accesorios/1hora_bateria_gar158.png",
   "categoria": "accesorios",
@@ -357,7 +359,7 @@
 },
 {
   "nombre": "Batería portátil 10000mAh",
-  "tipo": "batería",
+  "tipo": "cargador-portatil",
   "precio": "8000 CUP",
   "imagen": "img/accesorios/1hora_bateria_gar264.jpeg",
   "categoria": "accesorios",
@@ -366,7 +368,7 @@
 },
 {
   "nombre": "Batería portátil 10000mAh",
-  "tipo": "batería",
+  "tipo": "cargador-portatil",
   "precio": "5000 CUP",
   "imagen": "img/accesorios/moreka_bateria_k064.jpeg",
   "categoria": "accesorios",
@@ -390,7 +392,18 @@
   "categoria": "accesorios",
   "descripcion": "Cargador de auto modelo GAR116 con salida rápida de 18W. Ofrece carga eficiente y segura para dispositivos móviles. Diseño portátil y duradero, perfecto para uso diario en el carro.",
   "destacado": false
+},
+{
+  "nombre": "Protectores de Pantalla de Cristal Templado",
+  "tipo": "protectores",
+  "precio": "1000 CUP",
+  "imagen": "img/accesorios/micas.jpeg",
+  "categoria": "accesorios",
+  "descripcion": "Protectores de pantalla (micas) de cristal templado, compatibles con distintas marcas y modelos de dispositivos móviles. Fabricados en vidrio de alta densidad, ofrecen máxima resistencia contra rayaduras, golpes y caídas, manteniendo la claridad y sensibilidad táctil de la pantalla. Para confirmar disponibilidad, contáctenos indicando la marca y modelo de su teléfono.",
+  "destacado": false
 }
+
+
 
 
 

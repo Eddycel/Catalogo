@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const telefono = "5353427960";
+  const telefono = "5351333356";
   let productosData = [];
 
   fetch("data/productos.json")
